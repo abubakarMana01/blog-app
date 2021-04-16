@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+:root {
+	--primary-color: #f3335d;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	background-color: #eee;
+}
+
+.App {
+	max-width: 600px;
+	margin: auto;
+}
+
+.navbar {
+	color: var(--primary-color);
+	margin: 2rem 0;
+	padding: 1rem 0;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.navbar a {
+	color: var(--primary-color);
+	text-decoration: none;
+	margin: 0 1rem;
+	font-size: 1.1rem;
+}
+
+/* BlogList */
+.bloglist {
+	margin: 1rem 0;
+	padding: 1rem;
+	transition: box-shadow 200ms ease;
+}
+.bloglist:hover {
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.bloglist h2 {
+	color: var(--primary-color);
+	margin: 10px 0;
+}
+.bloglist h3 {
+	color: rgb(92, 92, 92);
+	font-size: 1rem;
+}
+.bloglist a {
+	text-decoration: none;
+}
+
+/* BlogDetails */
+.blog-details h2 {
+	color: var(--primary-color);
+}
+.blog-details h4 {
+	margin: 0.5rem 0;
+}
+.blog-details p {
+	margin: 1.5rem 0;
+}
+.blog-details button {
+	background-color: var(--primary-color);
+	color: #fff;
+	font-weight: 500;
+	padding: 0.6rem;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	cursor: pointer;
+}
+
+/* Create/New Blog */
+.create {
+	width: fit-content;
+	margin: auto;
+}
+.create h2 {
+	color: var(--primary-color);
+	margin: 3rem 0 2rem 0;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.create form {
+	width: fit-content;
+}
+.create form label {
+	display: block;
+	margin-bottom: 0.2rem;
+}
+.create form input,
+.create form textarea {
+	width: 400px;
+	padding: 0.4rem 0.4rem;
+	margin-bottom: 1rem;
+	border: 1px solid rgb(223, 223, 223);
+}
+.create form select {
+	padding: 0.4rem;
+	font-size: 1rem;
+	width: 400px;
+	cursor: pointer;
+	border: 1px solid rgb(223, 223, 223);
+}
+.create form button {
+	background-color: var(--primary-color);
+	color: #fff;
+	font-weight: 500;
+	padding: 0.6rem;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	margin: 2rem auto;
+	cursor: pointer;
+}

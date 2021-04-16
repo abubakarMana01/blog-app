@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "Latest blog",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eum est, neque veniam aliquid blanditiis temporibus rerum porro possimus? Sequi iste voluptates ratione neque recusandae temporibus ipsum autem labore maxime vel a magni animi velit adipisci magnam fugit, doloremque libero perspiciatis minima laborum nam laboriosam! Quidem earum nostrum quia harum cumque deserunt. Rem, laudantium! Quis dolore in nostrum vitae est aspernatur veniam nemo odit! Fugit quos exercitationem libero, voluptates ducimus vitae rem quas vero aut quaerat debitis sequi consectetur ad labore harum deserunt, odit quis! Laborum amet recusandae a quisquam molestiae. Consequuntur in voluptate aliquam pariatur sit. Eveniet, ex nisi",
+      "author": "luigi",
+      "id": 1
+    },
+    {
+      "title": "The beach party",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eum est, neque veniam aliquid blanditiis temporibus rerum porro possimus? Sequi iste voluptates ratione neque recusandae temporibus ipsum autem labore maxime vel a magni animi velit adipisci magnam fugit, doloremque libero perspiciatis minima laborum nam laboriosam! Quidem earum nostrum quia harum cumque deserunt. Rem, laudantium! Quis dolore in nostrum vitae est aspernatur veniam nemo odit! Fugit quos exercitationem libero, voluptates ducimus vitae rem quas vero aut quaerat debitis sequi consectetur ad labore harum deserunt, odit quis! Laborum amet recusandae a quisquam molestiae. Consequuntur in voluptate aliquam pariatur sit. Eveniet, ex nisi",
+      "author": "mario",
+      "id": 2
+    }
+  ]
+}
